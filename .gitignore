@@ -259,3 +259,12 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+build/VehiclesPermissions.xml
+build/System.Xml.Mono.net.dll
+build/Newtonsoft.Json.dll
+build/MenuAPI.dll
+build/HandlingPresets.xml
+build/HandlingInfo.xml
+build/HandlingEditor.Client.net.dll
+build/fxmanifest.lua
+build/config.json
