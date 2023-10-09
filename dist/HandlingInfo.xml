@@ -11,8 +11,8 @@
     <Description>This is the weight of the vehicle in kilograms. Only used when the vehicle collides with another vehicle or non-static object.</Description>
   </fMass>
   <fInitialDragCoeff Editable="true">
-    <Min value="0.9" />
-    <Max value="300" />
+    <Min value="0" />
+    <Max value="350" />
     <Description>Sets the drag coefficient on the rage physics archetype of the vehicle (proportional to velocity squared). Increase to simulate aerodynamic drag.</Description>
   </fInitialDragCoeff>
   <fPercentSubmerged Editable="true">
@@ -36,9 +36,9 @@
     <Max value="1" />
     <Description>This value is used to determine whether a vehicle is front, rear, or four wheel drive.</Description>
   </fDriveBiasFront>
-  <nInitialDriveGears Editable="false">
+  <nInitialDriveGears Editable="true">
     <Min value="1" />
-    <Max value="6" />
+    <Max value="9" />
     <Description>How many forward speeds a transmission contains.</Description>
   </nInitialDriveGears>
   <fInitialDriveForce Editable="true">
@@ -53,12 +53,12 @@
   </fDriveInertia>
   <fClutchChangeRateScaleUpShift Editable="true">
     <Min value="0.3" />
-    <Max value="9" />
+    <Max value="150" />
     <Description>Clutch speed multiplier on up shifts, bigger number = faster shifts.</Description>
   </fClutchChangeRateScaleUpShift>
   <fClutchChangeRateScaleDownShift Editable="true">
     <Min value="0.3" />
-    <Max value="9" />
+    <Max value="150" />
     <Description>Clutch speed multiplier on down shifts, bigger number = faster shifts.</Description>
   </fClutchChangeRateScaleDownShift>
   <fInitialDriveMaxFlatVel Editable="true">
@@ -83,7 +83,7 @@
   </fHandBrakeForce>
   <fSteeringLock Editable="true">
     <Min value="20" />
-    <Max value="55" />
+    <Max value="90" />
     <Description>This value is a multiplier of the game's calculation of the angle a steer wheel will turn while at full turn. Steering lock is directly related to over or understeer / turning radius.</Description>
   </fSteeringLock>
   <!-- Wheel Traction -->
@@ -154,8 +154,8 @@
     <Description>Visual limit... how far can wheels move up / down from original position.</Description>
   </fSuspensionLowerLimit>
   <fSuspensionRaise Editable="true">
-    <Min value="-0.085" />
-    <Max value="0.35" />
+    <Min value="-0.8" />
+    <Max value="0.8" />
     <Description>The amount that the suspension raises the body off the wheels. Recommend adjusting at second decimal unless vehicle has room to move. ie -0.02 is plenty of drop on an already low car. Too much will show the wheels clipping through or if positive, no suspension joining the body to wheels.</Description>
   </fSuspensionRaise>
   <fSuspensionBiasFront Editable="true">
@@ -194,9 +194,9 @@
     <Max value="4" />
     <Description>Multiplies the game's calculation of damage to the vehicle through weapon damage.</Description>
   </fWeaponDamageMult>
-  <fDeformationDamageMult Editable="false">
+  <fDeformationDamageMult Editable="true">
     <Min value="0" />
-    <Max value="5" />
+    <Max value="50" />
     <Description>Multiplies the game's calculation of deformation-causing damage.</Description>
   </fDeformationDamageMult>
   <fEngineDamageMult Editable="false">
@@ -257,22 +257,22 @@
   </fWeaponDamageScaledToVehHealthMult>
   <fPopUpLightRotation Editable="true">
     <Min value="17.5" />
-    <Max value="45" />
+    <Max value="5000" />
     <Description />
   </fPopUpLightRotation>
-  <fDownforceModifier Editable="false">
-    <Min value="1.15" />
-    <Max value="300" />
+  <fDownforceModifier Editable="true">
+    <Min value="0" />
+    <Max value="300000" />
     <Description />
   </fDownforceModifier>
-  <fRocketBoostCapacity Editable="false">
+  <fRocketBoostCapacity Editable="true">
     <Min value="3" />
-    <Max value="20" />
+    <Max value="200" />
     <Description />
   </fRocketBoostCapacity>
-  <fBoostMaxSpeed Editable="false">
+  <fBoostMaxSpeed Editable="true">
     <Min value="15" />
-    <Max value="87.5" />
+    <Max value="5000.5" />
     <Description />
   </fBoostMaxSpeed>
 </CHandlingData>
