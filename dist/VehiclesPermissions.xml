@@ -24,9 +24,22 @@
     <class name="Military"       id="19" allowed="true" />
     <class name="Commercial"     id="20" allowed="true" />
     <class name="Trains"         id="21" allowed="true" />
+    <class name="Open Wheel"     id="22" allowed="true" />
   </Classes>
   <!-- Enable or disable a specific model (overrides classes) -->
   <Models>
+    <model name="nightshark" allowed="true" />
+    <model name="baller5" allowed="true" />
+    <model name="baller6" allowed="true" />
+    <model name="insurgent" allowed="true" />
+    <model name="insurgent2" allowed="true" />
+    <model name="insurgent3" allowed="true" />
+    <model name="oppressor" allowed="true" />
+    <model name="oppressor2" allowed="true" />
+    <model name="paragon2" allowed="true" />
+    <model name="xls2" allowed="true" />
+    <model name="schafter5" allowed="true" />
+    <model name="schafter6" allowed="true" />
     <model name="fd"  allowed="true" />
     <model name="r35" allowed="true" />
     <model name="a80" allowed="true" />
